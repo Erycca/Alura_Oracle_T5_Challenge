@@ -1,0 +1,196 @@
+body{
+    color: #231942;
+    background-color:#5e548e;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color:#5e548e;
+    position: relative;
+    margin-top: 0px;
+  
+  }
+  
+  .titulo {
+    border: 0;
+    text-align: center;
+    padding-top: 30px; 
+    padding-left: 30px;
+    background: #9f86c0;
+   
+  }
+  
+  .Alura-logo {
+    position: absolute;
+    justify-content: center;
+    top: 20px;
+    height: 30px;
+    padding-top: 0;
+    padding-left: 50px;
+  
+  }
+  
+  .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-top: 30px;
+    
+  }
+  
+  .text-box {
+    width: 500px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 30px;
+   
+  }
+  
+  .input-text {
+    width: 500px;
+    height: 100px;
+    color: #e0b1cb;
+    font-size: 40px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    
+  }
+  
+  .input-text::placeholder{
+    color: #e0b1cb;
+  }
+  
+  .img-box {
+    border-radius: 20px;
+    width: 600px;
+    height: 250px;
+    border: 3px solid #e0b1cb;
+    margin-top: 5px;
+    margin-right: 120px;
+    padding-left: 10px;
+   
+  }
+  
+  .imgLupa{
+    width: 500px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 30%;
+  }
+  
+  .texto-Lupa{
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  
+  
+  .exclamacao{        
+    height: 15px;
+  }
+  
+  .ALERTA {
+    font-size: 17px;
+    padding-bottom: 6px;
+  }
+  
+  .Botoes {
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 38px;
+    width: 1280px;
+    
+  }
+  
+  .Botao-1{
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    background-color:#be95c4;
+    border: 2.5px solid #e0b1cb;
+    margin-right: 1em;    
+  }
+  
+  .Botao-2{
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    background-color:#be95c4;
+    border: 2.5px solid #e0b1cb;
+    margin-right: 6.80em;
+  }
+  
+  .Botao-3{
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    background-color:#be95c4;
+    border: 2.5px solid #e0b1cb;
+    margin-right: 6.80em;
+    margin-left: 5%;
+  }
+  
+  footer {
+    position: absolute;
+      bottom: 0;
+      background-color:#5e548e;
+      color: #e0b1cb;
+      width: 100%;
+      height: 60px;    
+      text-align: center;
+      line-height: 100px;
+  }
+  
+  .redes-sociais {
+    width: 100%;
+    padding-right: 10px;
+  }
+  
+  .copyrigh {
+     margin-top: 5px;
+     height: 60px;
+  
+  }
+  
+  .img-size{
+    height: 32px;
+    display:inline-block;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-result{
+    width: 550px;
+    height: 200px;
+    font-size: 35px;
+    margin-left: 12px;
+    margin-top: 10px;
+    background:transparent;
+    box-shadow: none;
+    border: transparent;
+    color:  #e0b1cb;
+  }
+  
+  
